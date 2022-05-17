@@ -115,6 +115,6 @@ function downLeft() {
 }
 
 function gameWon() {
-  if (game && !turn) {console.log("player 1 wins!")}
-  if (game && turn) {console.log("player 2 wins!")}
+  if (game && !turn) {alert("player 1 wins!")}
+  if (game && turn) {alert("player 2 wins!")}
 }
